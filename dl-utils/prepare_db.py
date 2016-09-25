@@ -142,9 +142,5 @@ def prepare_db(dirpath, train = 80, test = 10, val = 10):
         split_db(f)
     
 if __name__ == '__main__':
-    # prepare_db('/home/nrupatunga/NThere/Caffe-WS/BlurDetection-CNN/data/')
-    # shuffle('/home/nrupatunga/NThere/Caffe-WS/BlurDetection-CNN/data/data_split/train/train.txt')
-    # shuffle('/home/nrupatunga/NThere/Caffe-WS/BlurDetection-CNN/data/data_split/train/train_shuffle.txt')
-    # shuffle('/home/nrupatunga/NThere/Caffe-WS/BlurDetection-CNN/data/data_split/test/test_shuffle.txt')
-    # shuffle('/home/nrupatunga/NThere/Caffe-WS/BlurDetection-CNN/data/data_split/val/val.txt')
-    shuffle('/home/nrupatunga/NThere/Caffe-WS/BlurDetection-CNN/data/data_split/val/val_shuffle.txt')
+    prepare_db('/home/nrupatunga/NThere/Caffe-WS/data/')
+    shuffle('/home/nrupatunga/NThere/Caffe-WS/data/data_split/val/val.txt')
