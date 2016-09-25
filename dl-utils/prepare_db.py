@@ -5,7 +5,6 @@ from __future__ import division
 from listpaths import list_images
 import os
 import random
-import pudb
 
 def shuffle(filepath):
     '''shuffle the contents of the file
