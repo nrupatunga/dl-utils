@@ -31,7 +31,6 @@ def list_files(path, exts=['.txt']):
             yield os.path.join(path, f)
 
 if __name__ == '__main__':
-    # list_images('/home/nrupatunga/NThere/COURSES/PYIMAGESEARCH/')
     imgList = list_images('/home/nrupatunga/Pictures/')
     for img in imgList:
         print(img)
